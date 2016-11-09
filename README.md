@@ -318,3 +318,12 @@ Now also suports SVG in JSON format:
 }
 )
 ```
+
+![Final system workflow](http://g.gravizo.com/g?@startuml;
+%28*%29 --> "Receive email from mailgun";
+--> "Retrieve Author and Discussion from email address";
+--> "Build and publish new message";
+--> "Send notification to all participants except author";
+@enduml
+)
+
